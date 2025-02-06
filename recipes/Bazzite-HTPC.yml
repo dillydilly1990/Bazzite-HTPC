@@ -16,8 +16,8 @@ modules:
 #    containerfiles: ["ublue"]
 
 #  - type: bling
-    install:
-      - ublue-update
+#    install:
+#      - ublue-update
 
   - type: rpm-ostree
     install:
