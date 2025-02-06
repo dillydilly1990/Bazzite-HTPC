@@ -36,7 +36,6 @@ modules:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
-       # - tv.kodi.Kodi
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
