@@ -20,8 +20,8 @@ modules:
 #      - ublue-update
 
   - type: rpm-ostree
-    install:
-    remove:
+      install:
+      remove:
       - firefox
       - firefox-langpacks
 
