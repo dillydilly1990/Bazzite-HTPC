@@ -33,16 +33,5 @@ modules: # configured multiple times to highlight how options are overridden
 
   # Assuming that the above example is configured first in a recipe,
   # a subsequent usage might look like this:
-  - type: default-flatpaks
-    system:
-      # If the repo-* fields are omitted on the subsequent usage,
-      # the module will use the previously configured repo.
-      # Otherwise, it will overwrite the repo configuration.
-      install:
-        - org.kde.kdenlive # this Flatpak is appended to the install list
-    user:
-      # repo-name will overwrite the previously-configured repo-name for the user remote
-      repo-name: flathub-user
-      repo-title: "Flathub (User)
   - type: signing
   
