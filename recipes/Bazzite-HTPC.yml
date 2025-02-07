@@ -20,15 +20,15 @@ modules:
 #      - ublue-update
 
   - type: rpm-ostree
-    - install:
-    - remove:
+    install:
+    remove:
       - firefox
       - firefox-langpacks
 
   - type: files
     files:
-      - source: system
-        destination: /
+    - source: system
+      destination: /
 
 
 #  - type: script
@@ -38,8 +38,8 @@ modules:
     notify: true # Send notification after install/uninstall is finished
     system:
       # Flathub will be used by default
-      install:
-        - org.mozilla.firefox
-        - org.dupot.easyflatpak
+    install:
+      - org.mozilla.firefox
+      - org.dupot.easyflatpak
   - type: signing
   
