@@ -10,16 +10,4 @@ image-version: stable # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
-modules: # configured multiple times to highlight how options are overridden
-  - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "Flathub (system-wide)" 
-      install:
-      remove:
-    user:
-      repo-name: flathub
-  - type: signing
   
