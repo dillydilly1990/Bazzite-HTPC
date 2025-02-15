@@ -1,7 +1,7 @@
 bluebuild validate --all-errors ./recipes/Bazzite-HTPC.yml
 highlights:
 ---
-yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
 name: bazzite-htpc
 # description will be included in the image's metadata
